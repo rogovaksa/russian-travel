@@ -1,0 +1,21 @@
+.places__link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    display: block;
+    transition: opacity 1s;
+}
+
+.places__link:link {
+    color: white;
+}
+
+.places__link:visited {
+    color: white;
+}
+
+.places__link:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

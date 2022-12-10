@@ -1,0 +1,32 @@
+.footer__link {
+    font-family: 'Inter', 'Arial', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+    transition: opacity 1s;
+}
+
+.footer__link:link {
+    color: white;
+}
+
+.footer__link:visited {
+    color: white;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px){
+    .footer__link {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
