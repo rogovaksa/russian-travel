@@ -12,18 +12,20 @@
    <div class="page">
         <header class="header">
             <img src="./images/__logo.svg" alt="Россия_лого" class="header__logo">
-            <div class="header__lang-links">
-                <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
-                <a href="#" class="header__lang-link">En</a>
-            </div>
+            <ul class="header__lang-links">
+                <li><a href="#" class="header__lang-link header__lang-link_active">Ru</a></li>
+                <li><a href="#" class="header__lang-link">En</a></li>
+            </ul>
         </header>
 
         <main class="content">
             <section class="lead">
                 <h1 class="lead__title">Путешествия по России</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+                <figure class="lead__figure">
                 <img src="./images/lead__image.jpg" alt="купе" class="lead__image">
-                <p class="lead__caption">ваша полка &#8211; верхняя</p>
+                <figcaption class="lead__caption">ваша полка &#8211; верхняя</figcaption>
+                </figure>
             </section>
 
             <section class="intro">
@@ -50,25 +52,25 @@
             </section>
 
             <section class="photo-grid" aria-label="Галерея">
-                <img src="./images/__item(0).png" alt="" class="photo-grid__item">
-                <img src="./images/__item(1).png" alt="" class="photo-grid__item">
-                <img src="./images/__item(2).png" alt="" class="photo-grid__item">
-                <img src="./images/__item(3).png" alt="" class="photo-grid__item">
-                <img src="./images/__item(4).png" alt="" class="photo-grid__item">
-                <img src="./images/__item(5).png" alt="" class="photo-grid__item">
-                <img src="./images/__item(6).png" alt="" class="photo-grid__item">
-                <img src="./images/__item(7).png" alt="" class="photo-grid__item">
-                <img src="./images/__item(8).png" alt="" class="photo-grid__item">
-                <img src="./images/__item(9).png" alt="" class="photo-grid__item">
-                <img src="./images/__item(10).png" alt="" class="photo-grid__item">
-                <img src="./images/__item(11).png" alt="" class="photo-grid__item">
+                <img src="./images/__item(0).png" alt="Пейзаж_0" class="photo-grid__item">
+                <img src="./images/__item(1).png" alt="Пейзаж_1" class="photo-grid__item">
+                <img src="./images/__item(2).png" alt="Пейзаж_2" class="photo-grid__item">
+                <img src="./images/__item(3).png" alt="Пейзаж_3" class="photo-grid__item">
+                <img src="./images/__item(4).png" alt="Пейзаж_4" class="photo-grid__item">
+                <img src="./images/__item(5).png" alt="Пейзаж_5" class="photo-grid__item">
+                <img src="./images/__item(6).png" alt="Пейзаж_6" class="photo-grid__item">
+                <img src="./images/__item(7).png" alt="Пейзаж_7" class="photo-grid__item">
+                <img src="./images/__item(8).png" alt="Пейзаж_8" class="photo-grid__item">
+                <img src="./images/__item(9).png" alt="Пейзаж_9" class="photo-grid__item">
+                <img src="./images/__item(10).png" alt="Пейзаж_10" class="photo-grid__item">
+                <img src="./images/__item(11).png" alt="Пейзаж_11" class="photo-grid__item">
             </section>
 
             <section class="places" aria-label="Идеи для путешествий">
                 <div class="places__place">
                     <h3 class="places__title">Куршская коса</h3>
                     <div class="places__website">
-                        <p class="places__url-heading">URL</p>
+                        <p class="places__url-heading">url</p>
                         <a href="http://park-kosa.ru" class="places__link">park-kosa.ru</a>
                     </div>
                     <img src="./images/__image.png" alt="Куршская коса" class="places__image">
@@ -167,7 +169,7 @@
 
             <section class="cover">
                 <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
-                    <h2 class="cover__title">До Байкала «на собаках»</h2>
+                    <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
                     <p class="cover__subtitle">По мотивам учебной темы 
                         о Транссибе &#8211; путешествие 
                         от столицы до Байкала на электричках.</p>

@@ -14,7 +14,16 @@
     margin-bottom: 64px;
   }
 
-  @media screen and (min-width: 768px){
+.cover:hover {
+    background: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), 
+    url('../../images/__background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px){
     .cover {
         margin-bottom: 88px;
     }
@@ -23,13 +32,9 @@
 @media screen and (min-width: 1024px){
     .cover {
         margin-bottom: 92px;
-        box-sizing: border-box;
     }
 
-    .cover:hover {
-        background: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), 
-    url('../../images/__background.jpg');
-    }
+
 }
 
 @media screen and (min-width: 1280px){

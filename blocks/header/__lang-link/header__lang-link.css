@@ -4,6 +4,20 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 20px;
+    transition: opacity 1s;
+}
+
+.header__lang-link:link {
+    color: white;
+}
+
+.header__lang-link:visited {
+    color: white;
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
